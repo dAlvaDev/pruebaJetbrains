@@ -1,4 +1,37 @@
-h1{
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
 
-    background-color: blue;
+.pokemon-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pokemon-card{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+}
+
+.pokemon-image{
+    width: 120px;
+    height: 120px;
+}
+
+.pokemon-name{
+    margin-top: 0;
+}
+
+.pokemon-type{
+    margin-bottom: 0;
+    font-style: italic;
+    color: #555;
 }
